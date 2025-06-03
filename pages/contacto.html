@@ -1,90 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contactanos para más información sobre nuestros muebles y decoración." />
+  <meta name="keywords" content="contacto, decoración, muebles, hogar" />
+  <title>Contacto | Muebles y Decoración</title>
+
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 </head>
+
 <body>
+  <div class="grid-container">
+
+ 
+    <header class="header" data-aos="fade-down">
+      <h1>¡Contáctanos!</h1>
+      <p>Estamos para ayudarte a transformar tu hogar.</p>
+    </header>
 
     
-    <h1>DECORACIÓN</h1>
-    <p>MUEBLES Y DECO</p>
-<header>
-    <h2 class="pagina-contacto">CONTACTO</h2>
+    <section class="contacto" data-aos="zoom-in">
+      <h2 data-aos="fade-up">Dejanos tu mensaje</h2>
+
+      <form>
+        <label for="nombre" data-aos="fade-right">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" data-aos="fade-left" />
+
+        <label for="email" data-aos="fade-right">Email:</label>
+        <input type="email" id="email" name="email" data-aos="fade-left" />
+
+        <label for="mensaje" data-aos="fade-right">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" data-aos="fade-left"></textarea>
+
+        <button type="submit" data-aos="zoom-in">Enviar</button>
+      </form>
+    </section>
 
     
-</header>
-<section class="contacto">
-<h3>ENVIANOS UN MENSAJE</h3>
-<form action="enviar.php" method="post">
-    <label for="nombre">Nombre y apellido:</label>
-    <input type="text" id="nombre" name="nombre" required>
+    <section class="social-icons-contacto" data-aos="fade-up">
+      <h3>También podés encontrarnos en redes:</h3>
+      <a href="#"><img src="../images/instagram.jpg" alt="Instagram">Instagram</a>
+      <a href="#"><img src="../images/facebook.jpg" alt="Facebook">Facebook</a>
+      <a href="#"><img src="../images/whatsapp.jpg" alt="Whatsapp">Whatsapp 11-15586917</a>
+    </section>
 
-    <label for="email">Correo electrónico:</label>
-    <input type="email" id="email" name="email" required>
+ 
+    <footer class="footer" data-aos="fade-up">
+      <nav class="footer-nav">
+        <a href="../pages/productos.html">INICIO</a>
+        <a href="../pages/historia.html">HISTORIA</a>
+        <a href="../pages/locales.html">LOCALES</a>
+        <a href="../pages/contacto.html">CONTACTO</a>
+        <a href="../pages/envios.html">ENVIOS</a>
+      </nav>
+      <p>Decoración - Muebles y deco.</p>
 
-    <label for="MENSAJE">Mensaje:</label>
-    <textarea id="Mensaje" name="mensaje" rows="5" required></textarea>
-
-    <button type="submit">ENVIAR</button>
-
-    <p> Decoración - Muebles y deco.</p>
-    <div class="social-icons-contacto">
-        <a href="facebook"><img src="../images/FACEBOOK.jpg" alt="facebook">Facebook</a>
-        <a href="instagram"><img src="../images/instagram.jpg" alt="instagram">Instagram</a>
-        <a href="whatsapp"><img src="../images/whatsapp.jpg" alt="whatsapp">Whatsapp 11-15586917</a>
-
-
-
-
-
+      
+    <div class="social-icons">
+      <a href="facebook"><img src="../images/FACEBOOK.jpg" alt="facebook">Facebook</a>
+      <a href="instagram"><img src="../images/instagram.jpg" alt="instagram">Instagram</a>
+      <a href="whatsapp"><img src="../images/whatsapp.jpg" alt="whatsapp">Whatsapp 11-15586917</a>
     </div>
-
-
-
-
-
-</form>
-
-</section>
-
-
-
-
-
-
-    <footer class="footer">
-        <nav class="footer-nav">
-            <a href="../index.html">INICIO</a>
-            <a href="../pages/productos.html">PRODUCTOS</a>
-            <a href="../pages/historia.html">HISTORIA</a>
-            <a href="../pages/locales.html">LOCALES</a>  
-            <a href="../pages/envios.html">ENVIOS</a>
-    
-    
-    
-    
-    
-        </nav>
-        <p> Decoración - Muebles y deco.</p>
-        <div class="social-icons">
-            <a href="facebook"><img src="../images/FACEBOOK.jpg" alt="facebook">Facebook</a>
-            <a href="instagram"><img src="../images/instagram.jpg" alt="instagram">Instagram</a>
-            <a href="whatsapp"><img src="../images/whatsapp.jpg" alt="whatsapp">Whatsapp 11-15586917</a>
-    
-    
-    
-    
-    
-        </div>
-    
-
-
-
     </footer>
 
-    
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
