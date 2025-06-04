@@ -4,58 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Envíos | Muebles y Decoración</title>
-  <link rel="stylesheet" href="../css/style.css">
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <header>
-    <h1 data-aos="fade-down">EL GARAGE | ENVIOS</h1>
-    <p data-aos="fade-down">MUEBLES Y DECO</p>
+  
+  <header class="bg-light py-4 text-center">
+    <h1 data-aos="fade-down" class="fw-bold">EL GARAGE | ENVIOS</h1>
+    <p data-aos="fade-down" class="text-muted">MUEBLES Y DECO</p>
   </header>
 
-  <main class="envios" data-aos="fade-up">
-    <h3>ENVÍOS</h3>
+ 
+  <main class="container my-5 envios" data-aos="fade-up">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <h2 class="mb-4">ENVÍOS</h2>
 
-    <h4>¿DÓNDE RETIRAR LOS PRODUCTOS?</h4>
-    <p>Nuestros productos pueden retirarse por nuestro depósito (Salto BA), nuestros locales o ser enviados por flete propio o transporte externo.</p>
-    
-    <ul>
-      <li><strong>Retiro por local:</strong> Comunicate previamente para confirmar disponibilidad y coordinar día y horario.</li>
-      <li><strong>Envío con flete propio:</strong> Coordinás día, horario y costo con logística. Nos responsabilizamos por daños. Servicio puerta a puerta con zonas limitadas.</li>
-      <li><strong>Flete externo:</strong> En caso de roturas, la responsabilidad es del transporte elegido. El cliente gestiona el reclamo, con nuestra colaboración si es necesario.</li>
-    </ul>
+        <h4>¿DÓNDE RETIRAR LOS PRODUCTOS?</h4>
+        <p>Nuestros productos pueden retirarse por nuestro depósito (Salto BA), nuestros locales o ser enviados por flete propio o transporte externo.</p>
 
-    <h3>COTIZACIÓN DEL FLETE</h3>
-    <p>Todos los traslados son a cargo del cliente. El valor es estimado y puede variar. Las cotizaciones de fletes externos como Andreani, Vía Cargo, etc., también pueden sufrir variaciones.</p>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">
+            <strong>Retiro por local:</strong> Comunicate previamente para confirmar disponibilidad y coordinar día y horario.
+          </li>
+          <li class="list-group-item">
+            <strong>Envío con flete propio:</strong> Coordinás día, horario y costo con logística. Nos responsabilizamos por daños. Servicio puerta a puerta con zonas limitadas.
+          </li>
+          <li class="list-group-item">
+            <strong>Flete externo:</strong> En caso de roturas, la responsabilidad es del transporte elegido. El cliente gestiona el reclamo, con nuestra colaboración si es necesario.
+          </li>
+        </ul>
 
-    <h3>TIEMPOS DE ENTREGA</h3>
-    <p>
-      Si el envío es por empresa externa, no podemos asegurar fecha de entrega. Te daremos una guía para seguimiento.  
-      <br>
-      Si el traslado es por nuestro servicio, se estima una franja horaria de 2-3 horas. No garantizamos hora exacta.
-    </p>
+        <h4 class="mt-4">COTIZACIÓN DEL FLETE</h4>
+        <p>Todos los traslados son a cargo del cliente. El valor es estimado y puede variar. Las cotizaciones de fletes externos como Andreani, Vía Cargo, etc., también pueden sufrir variaciones.</p>
+
+        <h4 class="mt-4">TIEMPOS DE ENTREGA</h4>
+        <p>
+          Si el envío es por empresa externa, no podemos asegurar fecha de entrega. Te daremos una guía para seguimiento.
+          <br>
+          Si el traslado es por nuestro servicio, se estima una franja horaria de 2-3 horas. No garantizamos hora exacta.
+        </p>
+      </div>
+    </div>
   </main>
 
-  <footer class="footer" data-aos="fade-up">
-    <nav class="footer-nav">
-      <a href="../index.html">INICIO</a>
-      <a href="../pages/productos.html">PRODUCTOS</a>
-      <a href="../pages/historia.html">HISTORIA</a>
-      <a href="../pages/locales.html">LOCALES</a>
-      <a href="../pages/contacto.html">CONTACTO</a>
-    </nav>
+  <footer class="footer bg-dark text-light py-4" data-aos="fade-up">
+    <div class="container text-center">
+      <nav class="footer-nav mb-3">
+        <a href="../index.html" class="text-light mx-2">INICIO</a>
+        <a href="../pages/productos.html" class="text-light mx-2">PRODUCTOS</a>
+        <a href="../pages/historia.html" class="text-light mx-2">HISTORIA</a>
+        <a href="../pages/locales.html" class="text-light mx-2">LOCALES</a>
+        <a href="../pages/contacto.html" class="text-light mx-2">CONTACTO</a>
+      </nav>
 
-    <p>Decoración - Muebles y deco.</p>
+      <p>Decoración - Muebles y deco.</p>
 
-    <div class="social-icons">
-      <a href="facebook"><img src="../images/FACEBOOK.jpg" alt="facebook">Facebook</a>
-      <a href="instagram"><img src="../images/instagram.jpg" alt="instagram">Instagram</a>
-      <a href="whatsapp"><img src="../images/whatsapp.jpg" alt="whatsapp">Whatsapp 11-15586917</a>
+      <div class="social-icons d-flex justify-content-center gap-3 mt-3">
+        <a href="facebook" class="text-light d-flex align-items-center gap-2">
+          <img src="../images/FACEBOOK.jpg" alt="facebook" style="width: 20px;"> Facebook
+        </a>
+        <a href="instagram" class="text-light d-flex align-items-center gap-2">
+          <img src="../images/instagram.jpg" alt="instagram" style="width: 20px;"> Instagram
+        </a>
+        <a href="whatsapp" class="text-light d-flex align-items-center gap-2">
+          <img src="../images/whatsapp.jpg" alt="whatsapp" style="width: 20px;"> Whatsapp 11-15586917
+        </a>
+      </div>
     </div>
   </footer>
 
- 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init();
