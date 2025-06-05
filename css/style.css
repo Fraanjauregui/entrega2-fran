@@ -11,9 +11,11 @@ body {
   font-family: monospace;
   font-size: 16px;
   text-align: center;
-  background-color: wheat;
+  background-color: #f5deb3
   margin: 0;
   padding: 10px;
+  color: #333;
+  
 }
 @media (max-width: 600px) {
   body {
@@ -35,7 +37,26 @@ body {
 }
 
 h1 {
-  font-family: "Courier New", Courier, monospace;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: #8b5c41;
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #8b5c41;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto 1em auto;
 }
 
 nav {
@@ -584,3 +605,4 @@ header.header h3 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
