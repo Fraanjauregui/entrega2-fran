@@ -23,3 +23,4 @@ document.querySelectorAll('.producto').forEach(producto => {
     producto.style.transform = 'scale(1)';
   });
 });
+
